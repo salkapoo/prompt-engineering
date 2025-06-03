@@ -1,0 +1,13 @@
+1. Pull the latest changes from main and create a new branch named chore/derivs-app-[CURRENT_DATE-CURRENT_TIMESTAMP].
+2. Update the tags in the following files as specified:
+    * File: apps/gdtech/general-purpose-dev/galaxy-ui/web-reports-derivs/web-reports-derivs.yaml    
+        * To - pr-dev-1.184.0-394dc24
+
+    * File: apps/gdtech/general-purpose-qa/galaxy-ui/web-reports-derivs/web-reports-derivs.yaml
+        * To: pr-qa-1.184.0-394dc24
+
+    * file - apps/gdtech/general-purpose-uat/galaxy-ui/web-reports/web-reports.yaml   
+        * to - pr-uat-1.184.0-394dc24
+        
+3. Create a pull request to the main branch with the commit message:chore(derive-app): deploy derivs app on [CURRENT_DATE-CURRENT_TIMESTAMP]
+
